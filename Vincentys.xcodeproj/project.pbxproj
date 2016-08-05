@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE170941D54129900AF7115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE170931D54129900AF7115 /* AppDelegate.swift */; };
+		CCE170961D54129900AF7115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE170951D54129900AF7115 /* ViewController.swift */; };
+		CCE170991D54129900AF7115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE170971D54129900AF7115 /* Main.storyboard */; };
+		CCE1709B1D54129900AF7115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE1709A1D54129900AF7115 /* Assets.xcassets */; };
+		CCE1709E1D54129900AF7115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE1709C1D54129900AF7115 /* LaunchScreen.storyboard */; };
+		CCE170A91D54129900AF7115 /* VincentysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE170A81D54129900AF7115 /* VincentysTests.swift */; };
+		CCE170B41D54129900AF7115 /* VincentysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE170B31D54129900AF7115 /* VincentysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCE170A51D54129900AF7115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCE170881D54129900AF7115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE1708F1D54129900AF7115;
+			remoteInfo = Vincentys;
+		};
+		CCE170B01D54129900AF7115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCE170881D54129900AF7115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE1708F1D54129900AF7115;
+			remoteInfo = Vincentys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCE170901D54129900AF7115 /* Vincentys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vincentys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE170931D54129900AF7115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCE170951D54129900AF7115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCE170981D54129900AF7115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCE1709A1D54129900AF7115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCE1709D1D54129900AF7115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCE1709F1D54129900AF7115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE170A41D54129900AF7115 /* VincentysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VincentysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE170A81D54129900AF7115 /* VincentysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VincentysTests.swift; sourceTree = "<group>"; };
+		CCE170AA1D54129900AF7115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE170AF1D54129900AF7115 /* VincentysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VincentysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE170B31D54129900AF7115 /* VincentysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VincentysUITests.swift; sourceTree = "<group>"; };
+		CCE170B51D54129900AF7115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE1708D1D54129900AF7115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE170A11D54129900AF7115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE170AC1D54129900AF7115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE170871D54129900AF7115 = {
+			isa = PBXGroup;
+			children = (
+				CCE170921D54129900AF7115 /* Vincentys */,
+				CCE170A71D54129900AF7115 /* VincentysTests */,
+				CCE170B21D54129900AF7115 /* VincentysUITests */,
+				CCE170911D54129900AF7115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE170911D54129900AF7115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE170901D54129900AF7115 /* Vincentys.app */,
+				CCE170A41D54129900AF7115 /* VincentysTests.xctest */,
+				CCE170AF1D54129900AF7115 /* VincentysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE170921D54129900AF7115 /* Vincentys */ = {
+			isa = PBXGroup;
+			children = (
+				CCE170931D54129900AF7115 /* AppDelegate.swift */,
+				CCE170951D54129900AF7115 /* ViewController.swift */,
+				CCE170971D54129900AF7115 /* Main.storyboard */,
+				CCE1709A1D54129900AF7115 /* Assets.xcassets */,
+				CCE1709C1D54129900AF7115 /* LaunchScreen.storyboard */,
+				CCE1709F1D54129900AF7115 /* Info.plist */,
+			);
+			path = Vincentys;
+			sourceTree = "<group>";
+		};
+		CCE170A71D54129900AF7115 /* VincentysTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE170A81D54129900AF7115 /* VincentysTests.swift */,
+				CCE170AA1D54129900AF7115 /* Info.plist */,
+			);
+			path = VincentysTests;
+			sourceTree = "<group>";
+		};
+		CCE170B21D54129900AF7115 /* VincentysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE170B31D54129900AF7115 /* VincentysUITests.swift */,
+				CCE170B51D54129900AF7115 /* Info.plist */,
+			);
+			path = VincentysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE1708F1D54129900AF7115 /* Vincentys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE170B81D54129900AF7115 /* Build configuration list for PBXNativeTarget "Vincentys" */;
+			buildPhases = (
+				CCE1708C1D54129900AF7115 /* Sources */,
+				CCE1708D1D54129900AF7115 /* Frameworks */,
+				CCE1708E1D54129900AF7115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vincentys;
+			productName = Vincentys;
+			productReference = CCE170901D54129900AF7115 /* Vincentys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCE170A31D54129900AF7115 /* VincentysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE170BB1D54129900AF7115 /* Build configuration list for PBXNativeTarget "VincentysTests" */;
+			buildPhases = (
+				CCE170A01D54129900AF7115 /* Sources */,
+				CCE170A11D54129900AF7115 /* Frameworks */,
+				CCE170A21D54129900AF7115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE170A61D54129900AF7115 /* PBXTargetDependency */,
+			);
+			name = VincentysTests;
+			productName = VincentysTests;
+			productReference = CCE170A41D54129900AF7115 /* VincentysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCE170AE1D54129900AF7115 /* VincentysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE170BE1D54129900AF7115 /* Build configuration list for PBXNativeTarget "VincentysUITests" */;
+			buildPhases = (
+				CCE170AB1D54129900AF7115 /* Sources */,
+				CCE170AC1D54129900AF7115 /* Frameworks */,
+				CCE170AD1D54129900AF7115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE170B11D54129900AF7115 /* PBXTargetDependency */,
+			);
+			name = VincentysUITests;
+			productName = VincentysUITests;
+			productReference = CCE170AF1D54129900AF7115 /* VincentysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE170881D54129900AF7115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brennan Farrell";
+				TargetAttributes = {
+					CCE1708F1D54129900AF7115 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CCE170A31D54129900AF7115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CCE1708F1D54129900AF7115;
+					};
+					CCE170AE1D54129900AF7115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CCE1708F1D54129900AF7115;
+					};
+				};
+			};
+			buildConfigurationList = CCE1708B1D54129900AF7115 /* Build configuration list for PBXProject "Vincentys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE170871D54129900AF7115;
+			productRefGroup = CCE170911D54129900AF7115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE1708F1D54129900AF7115 /* Vincentys */,
+				CCE170A31D54129900AF7115 /* VincentysTests */,
+				CCE170AE1D54129900AF7115 /* VincentysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE1708E1D54129900AF7115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE1709E1D54129900AF7115 /* LaunchScreen.storyboard in Resources */,
+				CCE1709B1D54129900AF7115 /* Assets.xcassets in Resources */,
+				CCE170991D54129900AF7115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE170A21D54129900AF7115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE170AD1D54129900AF7115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE1708C1D54129900AF7115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE170961D54129900AF7115 /* ViewController.swift in Sources */,
+				CCE170941D54129900AF7115 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE170A01D54129900AF7115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE170A91D54129900AF7115 /* VincentysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE170AB1D54129900AF7115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE170B41D54129900AF7115 /* VincentysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCE170A61D54129900AF7115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCE1708F1D54129900AF7115 /* Vincentys */;
+			targetProxy = CCE170A51D54129900AF7115 /* PBXContainerItemProxy */;
+		};
+		CCE170B11D54129900AF7115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCE1708F1D54129900AF7115 /* Vincentys */;
+			targetProxy = CCE170B01D54129900AF7115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCE170971D54129900AF7115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE170981D54129900AF7115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE1709C1D54129900AF7115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE1709D1D54129900AF7115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE170B61D54129900AF7115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCE170B71D54129900AF7115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE170B91D54129900AF7115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vincentys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Vincentys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCE170BA1D54129900AF7115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vincentys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Vincentys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCE170BC1D54129900AF7115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VincentysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VincentysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vincentys.app/Vincentys";
+			};
+			name = Debug;
+		};
+		CCE170BD1D54129900AF7115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VincentysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VincentysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vincentys.app/Vincentys";
+			};
+			name = Release;
+		};
+		CCE170BF1D54129900AF7115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VincentysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VincentysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vincentys;
+			};
+			name = Debug;
+		};
+		CCE170C01D54129900AF7115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VincentysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VincentysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vincentys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE1708B1D54129900AF7115 /* Build configuration list for PBXProject "Vincentys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE170B61D54129900AF7115 /* Debug */,
+				CCE170B71D54129900AF7115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE170B81D54129900AF7115 /* Build configuration list for PBXNativeTarget "Vincentys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE170B91D54129900AF7115 /* Debug */,
+				CCE170BA1D54129900AF7115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCE170BB1D54129900AF7115 /* Build configuration list for PBXNativeTarget "VincentysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE170BC1D54129900AF7115 /* Debug */,
+				CCE170BD1D54129900AF7115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCE170BE1D54129900AF7115 /* Build configuration list for PBXNativeTarget "VincentysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE170BF1D54129900AF7115 /* Debug */,
+				CCE170C01D54129900AF7115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE170881D54129900AF7115 /* Project object */;
+}
