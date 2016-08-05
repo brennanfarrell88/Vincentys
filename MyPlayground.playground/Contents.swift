@@ -73,3 +73,4 @@ var alphaOne = atan((cos(reducedLatitudeTwo)*sin(lambda)) / (cos(reducedLatitude
 
 var alphaTwo = atan((cos(reducedLatitudeOne)*sin(lambda)) / (-sin(reducedLatitudeOne)*cos(reducedLatitudeTwo) + cos(reducedLatitudeOne)*sin(reducedLatitudeTwo)*cos(lambda))).radiansToDegrees
 
+
