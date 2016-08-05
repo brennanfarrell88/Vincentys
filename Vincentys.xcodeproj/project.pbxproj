@@ -47,6 +47,7 @@
 		CCE170AF1D54129900AF7115 /* VincentysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VincentysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE170B31D54129900AF7115 /* VincentysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VincentysUITests.swift; sourceTree = "<group>"; };
 		CCE170B51D54129900AF7115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE170C11D5412DB00AF7115 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		CCE170871D54129900AF7115 = {
 			isa = PBXGroup;
 			children = (
+				CCE170C11D5412DB00AF7115 /* MyPlayground.playground */,
 				CCE170921D54129900AF7115 /* Vincentys */,
 				CCE170A71D54129900AF7115 /* VincentysTests */,
 				CCE170B21D54129900AF7115 /* VincentysUITests */,
