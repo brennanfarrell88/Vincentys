@@ -8,14 +8,39 @@ extension Double {
 }
 
 //var firstCoordinate : [Double] = [-34.9462, 138.5332]
-var firstCoordinate : [Double] = [-0,00] //Test Coordinates
+var firstCoordinate : [Double] = [-37,137] //Test Coordinates
 firstCoordinate = [firstCoordinate[0].degreesToRadians,firstCoordinate[1].degreesToRadians]
 //var secondCoordinate : [Double] = [-34.7024994, 138.6210022]
-var secondCoordinate : [Double] = [-45,90]
+var secondCoordinate : [Double] = [-37,137.666666]
 secondCoordinate = [secondCoordinate[0].degreesToRadians,secondCoordinate[1].degreesToRadians]
 
-func vincentysInverse(coordinateOne : Array<Double>, coordinateTwo : Array<Double>) -> Array<Double>{
+enum vincentysError : ErrorType {
     
+    case coincidentCoordinates
+    case incorrectCoordinates
+    case antipodalCoordinates
+    case unknownCoordinateError
+    
+}
+
+
+func vincentysInverse(coordinateOne : Array<Double>, coordinateTwo : Array<Double>) throws -> Array<Double>{
+    
+    if abs(coordinateOne[0])>M_PI/2 || abs(coordinateTwo[0])>M_PI/2 || abs(coordinateOne[1])>M_PI || abs(coordinateTwo[1])>M_PI{
+        throw vincentysError.incorrectCoordinates
+    }
+    
+    if coordinateOne == coordinateTwo{
+        throw vincentysError.coincidentCoordinates
+    }
+    
+    
+    if coordinateOne[0] == -coordinateTwo[0] && abs(coordinateOne[1]-coordinateTwo[1]) == M_PI{
+        throw vincentysError.antipodalCoordinates
+    }
+    else if abs(coordinateOne[1]) == 90 && abs(coordinateTwo[1])==90{
+        throw vincentysError.antipodalCoordinates
+    }
     
     func bearingDecimalToString(bearingDecimal : Double) -> String{
         let bearingDegree = floor(bearingDecimal)
@@ -94,7 +119,22 @@ func vincentysInverse(coordinateOne : Array<Double>, coordinateTwo : Array<Doubl
     return [lowerCaseS,alphaOne,alphaTwo]
 }
 
-vincentysInverse(firstCoordinate, coordinateTwo: secondCoordinate)
+do{
+    
 
+try vincentysInverse(firstCoordinate, coordinateTwo: secondCoordinate)
+}
+
+catch vincentysError.coincidentCoordinates{
+    print("Coordinates are Coincident")
+}
+
+catch vincentysError.antipodalCoordinates{
+    print("Coordinates are Antipodal")
+}
+
+catch vincentysError.incorrectCoordinates{
+    print("Please insert correct coordinates")
+}
 //Test
 
